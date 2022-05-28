@@ -7,3 +7,5 @@ dnf update -y
 dnf install firewalld -y
 systemctl enable firewalld --now
 
+# Install Git
+dnf install -y git
