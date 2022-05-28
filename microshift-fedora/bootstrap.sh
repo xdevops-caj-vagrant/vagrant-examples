@@ -5,6 +5,11 @@ dnf update -y
 dnf install firewalld -y
 systemctl enable firewalld --now
 
+# Install CRI-O
+dnf module enable -y cri-o:1.21
+dnf install -y cri-o cri-tools
+systemctl enable crio --now
+
 # Install Podman
 dnf install -y podman
 
