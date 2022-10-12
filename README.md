@@ -17,4 +17,7 @@ mkdir -p data
 # boostrap and start the VM
 vagrant up
 
+# connect to the VM
+vagrant ssh
+
 ```
