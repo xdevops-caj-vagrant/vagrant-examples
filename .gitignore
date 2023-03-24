@@ -19,3 +19,6 @@
 
 # vagrant data folder
 data/
+
+# log
+*.log

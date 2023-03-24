@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     config.vm.define "k3s" do |node|
       node.vm.network "private_network", ip: "192.168.56.50"
       node.vm.provision "shell", inline: <<-SHELL
-        curl -sfL https://get.k3s.io | sh -
+        curl -sfL https://rancher-mirror.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh -
       SHELL
     end
   end
