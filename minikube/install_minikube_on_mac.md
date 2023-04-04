@@ -88,3 +88,4 @@ minikube addons enable istio
 
 - https://minikube.sigs.k8s.io/docs/start/
 - https://kubernetes.io/de/docs/tasks/tools/install-minikube/
+- https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/
