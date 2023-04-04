@@ -34,8 +34,6 @@ kubectl get pods -A
 You can use `kubectl` in your MacOS, or use `minikube kubectl` instead.
 
 
-```
-
 ## Install / Update kubectl on MocOs(optional)
 
 ```bash
