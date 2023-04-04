@@ -1,5 +1,6 @@
 # Install Minikube with Vagrant
 
+If you want to find install Minikube on MacOS, please refer to [install_minikube_on_mac](install_minikube_on_mac.md).
 
 # Start Minikube in Vagrant
 ```bash
