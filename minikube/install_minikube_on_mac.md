@@ -77,12 +77,15 @@ http://REPLACE_WITH_EXTERNAL_IP:8080
 References:
 - https://minikube.sigs.k8s.io/docs/handbook/accessing/
 
-## Enable Istio addon
+## Enable Istio addon (outdated)
 
 ```bash
 minikube addons list
 minikube addons enable istio
 ```
+
+References:
+- https://istio.io/latest/docs/setup/platform-setup/minikube/
 
 ## References
 
